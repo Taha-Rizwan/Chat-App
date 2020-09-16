@@ -174,14 +174,31 @@ button:disabled {
     font-size: 18px;
     margin-bottom: 4px;
     padding: 12px 24px 0 24px;
+    text-align: center;
 }
 
 .users {
     list-style-type: none;
     font-weight: 300;
     padding: 12px 24px 0 24px;
+    text-align: center;
 }  
 
-@media screen and (max-width: 600px) {
-
+@media only screen and (max-width: 600px) {
+  .compose button{
+       padding: 6px;
+       font-size: 10px;
+   }
+   .chat__sidebar{
+       width: 30vw;
+   }
+   .users{
+       font-size: 14px;
+       text-align: left;
+       padding: 12px 24px 24px 12px;
+   }
+   .list-title{
+  padding-right: 24px;
+  padding-left: 12px;
+   }
 }
